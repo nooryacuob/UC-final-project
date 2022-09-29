@@ -110,7 +110,9 @@ struct Calculater: View {
                         .frame(width: 150, height:50)
                         .background(Color.green)
                         .clipShape(RoundedRectangle(cornerRadius: 50))
-            
+                       // .onTapGesture {
+                        //    (((Double(Money) ?? 0) - (Double(MySpends) ?? 0)))
+                      //  }
                
                     
                 })
@@ -143,7 +145,8 @@ struct Calculater: View {
                     .resizable()
                     .scaledToFit()
                     .clipShape(Rectangle())
-               
+                
+                
               //  ContentView(name: " ", Price: String: $result)
         //Double (Savings) = (Double (Money) ?? 0) - (Double (MySpends) ?? 0)
                          //}
